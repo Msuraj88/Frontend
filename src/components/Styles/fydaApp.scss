@@ -1,0 +1,40 @@
+// * {
+//     // background-color: #262626;
+//     color: #fff;
+// }
+
+.Content-box {
+    border-radius: 50px;
+    border: 1px solid #F6C171;
+    background: #2C2C2C;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 52px;
+    padding-bottom: 24px;
+    color: #fff;
+
+    .justify-content-between {
+        display: flex;
+    }
+
+    .box-header {
+        padding: 24px;
+        border-radius: 50px 50px 0px 0px;
+        background: #353535;
+
+        h5 {
+            font-family: 'IBM Plex Mono', monospace;
+        }
+    }
+
+    .box-header-icon {
+        border: 1px solid;
+        padding: 7px;
+        border-radius: 50%;
+        height: 34px;
+        width: auto;
+    }
+
+    .box-body-content {
+        padding: 24px;
+    }
+}
